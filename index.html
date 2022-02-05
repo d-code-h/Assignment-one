@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <meta name="description" content="drop a description">
+    <meta name="keywords" content="drop a keywords">
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+    <script>
+        // setTimeout(()=>{location.reload()}, 3000)
+    </script>
+</head>
+<body>
+    <div class="grid">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+    </div>
+    <div class="fa">
+        <span class="fa fa-angle-up"></span>
+    </div>
+    <script src="./script.js"></script>
+    <script>
+        let t=document.querySelector(".fa"); t.style="width: 50px;height: 50px;background-color: white;box-shadow: 0px 0px 2px 0xp black;display: flex; align-items:center; justify-content:center; font-size: 25px;position: fixed;right: 50px;bottom: 50px;";
+        t.addEventListener("click", ()=>{
+            scroll(0,0);
+        })
+        addEventListener("scroll", ()=>{
+            if(scrollY===0){
+                t.style="display:none";
+            }
+            t.style="display: block";
+        })
+    </script>
+</body>
+</html>

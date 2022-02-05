@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* justify-items: center; */
+  grid-gap: 10px;
+  padding: 10px;
+}
+div span {
+  text-align: center;
+  display: block;
+  line-height: 300px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+div span {
+  animation: color linear 3s alternate-reverse both infinite;
+}
+@keyframes color {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
+div span:first-child {
+  background-color: orangered;
+}
+
+div span:nth-of-type(2) {
+  background-color: gold;
+}
+div span:nth-of-type(3) {
+  background-color: purple;
+}
+div span:nth-of-type(4) {
+  background-color: orchid;
+}
+div span:nth-of-type(5) {
+  background-color: teal;
+}
+div span:nth-of-type(6) {
+  background-color: yellowgreen;
+}
+div span:nth-of-type(7) {
+  background-color: palegreen;
+}
+div span:nth-of-type(8) {
+  background-color: lightcoral;
+}
+div span:nth-of-type(9) {
+  background-color: palegreen;
+}
+div span:nth-of-type(10) {
+  background-color: aqua;
+}
+div span:nth-of-type(11) {
+  background-color: gray;
+}
+div span:nth-of-type(12) {
+  background-color: indigo;
+}
+div span:nth-of-type(13) {
+  background-color: hotpink;
+}
+div span:nth-of-type(14) {
+  background-color: tomato;
+}
+div span:nth-of-type(15) {
+  background-color: orchid;
+}
+div span:nth-of-type(16) {
+  background-color: lightseagreen;
+}
